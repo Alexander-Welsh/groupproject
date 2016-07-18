@@ -5,3 +5,9 @@ export function getNews(){
 
 	return axios.get(path);
 }
+
+export function getMenu(){
+	var path ="https://json-data.herokuapp.com/restaurant/menu/1"
+
+	return axios.get(path);
+}
