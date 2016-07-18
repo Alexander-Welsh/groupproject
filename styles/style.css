@@ -1,0 +1,11 @@
+#logo {
+	width: 100px;
+	height: 100px;
+	 -webkit-transform: rotate(90deg);
+	 padding:0px;
+	 margin:0px;
+}
+
+a{
+	margin-right: 10px;
+}
