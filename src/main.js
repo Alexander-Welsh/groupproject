@@ -6,7 +6,7 @@ import { Router, Route, browserHistory, hashHistory } from 'react-router';
 import Layout from 'layout/layout';
 
 // UI
-import Story from 'ui/story';
+import Story from 'ui/storycontainer';
 import Menu from 'ui/menu'
 import Reservation from 'ui/reservation'
 
