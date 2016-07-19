@@ -7,8 +7,10 @@ import Layout from 'layout/layout';
 
 // UI
 import Story from 'ui/story';
-import Menu from 'ui/menu'
-import Reservation from 'ui/reservation'
+import Menu from 'ui/menu';
+import Reservation from 'ui/reservation';
+import Google from 'ui/google';
+import News from "ui/news";
 
 const Site = (
   <Router history={hashHistory}>
