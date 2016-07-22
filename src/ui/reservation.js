@@ -23,10 +23,8 @@ export default React.createClass({
 	},
   render: function () {
     return (
-<<<<<<< HEAD
       <div>
       	<p>Reservation</p>
-=======
       <div id="registration">
       	<h1> Reservation </h1>
       		<form id="form" ref="form" onSubmit={this.handleSubmit}>
@@ -47,7 +45,7 @@ export default React.createClass({
 				<button type="submit">Reserve Table</button>
 
       		</form>
->>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
+      </div>
       </div>
     )
   }

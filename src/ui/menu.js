@@ -33,10 +33,8 @@ export default React.createClass({
 	},
   render: function () {
     return (
-<<<<<<< HEAD
       <div>
       	<p>Menu</p>
-=======
       <div id="menuContainer">
       	<h1>Dinner Menu</h1>
       	<h2 className="finder"onClick={this.slider} title="Click to Open/Close"> Appetizers:</h2>
@@ -52,7 +50,7 @@ export default React.createClass({
       		<Side sides={this.state.sides} />
       	</div>
 
->>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
+      </div>
       </div>
     )
   }

@@ -19,7 +19,6 @@ export default React.createClass({
   render: function () {
     return (
       <div>
-<<<<<<< HEAD
         <Pictures />
         
       <div className="infocont">
@@ -32,7 +31,6 @@ export default React.createClass({
         <Link to="/"> Our Story</Link>
         <Link to="/menu"> Menu</Link>
         <Link to="/reservation">Reservation</Link>
-=======
         <Logo />
         <Social />
         <Link to="/" className="links"> Our Story</Link>
@@ -41,7 +39,7 @@ export default React.createClass({
 
       
         
->>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
+
 
         {this.props.children}
         
@@ -49,8 +47,3 @@ export default React.createClass({
     )
   }
 })
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
