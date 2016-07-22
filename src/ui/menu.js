@@ -11,32 +11,42 @@ export default React.createClass({
 		appetizer: [],
 		entree: [],
 		sides: []
-	}
+		}
 	},
 	componentWillMount: function(){
 		getMenu().then(function(response){
-			console.log(response)
 			this.setState({
 				appetizer:response.data.appetizers,
 				entree:response.data.entrees,
 				sides:response.data.sides
 			})
 		}.bind(this))
-		console.log(this.state.appetizer)
 	},
-
+	slider: function(){
+		var data = document.getElementsByClassName('finder');
+		console.log(data)
+	for (var i = 0; i < data.length; i++) {
+			data[i].onclick =function(){
+				this.nextElementSibling.classList.toggle("show");
+    	}
+    	}
+	},
   render: function () {
     return (
-      <div>
-
-      	<h1>This is the Menu</h1>
-      	<h2> Appetizers</h2>
-      	<Apps apps={this.state.appetizer} />
-      	<h2> Entrees </h2>
-      	<Entree entree={this.state.entree} />
-      	<h2> Sides A La Carte </h2>
-      	<Side sides={this.state.sides} />
-
+      <div id="menuContainer">
+      	<h1>Dinner Menu</h1>
+      	<h2 className="finder"onClick={this.slider} title="Click to Open/Close"> Appetizers:</h2>
+      	<div className="accord show">
+      		<Apps apps={this.state.appetizer} />
+      	</div>
+      	<h2 className="finder" onClick={this.slider} title="Click to Open/Close"> Entrees: </h2>
+      	<div className="accord">
+      		<Entree entree={this.state.entree} />
+      	</div>
+      	<h2 className="finder" onClick={this.slider} title="Click to Open/Close"> Sides: </h2>
+      	<div className="accord">
+      		<Side sides={this.state.sides} />
+      	</div>
 
       </div>
     )

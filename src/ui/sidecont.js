@@ -1,5 +1,5 @@
 import React from 'react';
-import Side from 'ui/side'
+import Side from 'ui/apps'
 
 export default React.createClass({
   render: function () {

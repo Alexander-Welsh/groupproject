@@ -18,7 +18,7 @@ export default React.createClass({
 	},
   render: function () {
     return (
-      <div>
+      <div id="storyContainer">
         <h1>Our Story</h1>
 
         <OurStory story={this.state.story} />
