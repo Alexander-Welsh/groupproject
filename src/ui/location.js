@@ -4,17 +4,17 @@ export default React.createClass({
   render: function() {
     return (
      <div className="infoboxes">
-        <h2> Our Location </h2>
-  			<hr />	
-    		 <div className="google"> 
-          <iframe width="300" height="250" frameBorder="0" style={{border:"0"}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy6FEsprDyIARuQKsh8g7_B8&key=AIzaSyDi3YKBSUltQvZjBzJIoVmcUdSn41b1yVI" allowFullScreen>
-          </iframe>
+        <h4> Our Location </h4>
+  			<hr className="hr"/>	
+    		  <div className="google"> 
+            <iframe width="300" height="250" frameBorder="0" style={{border:"0"}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy6FEsprDyIARuQKsh8g7_B8&key=AIzaSyDi3YKBSUltQvZjBzJIoVmcUdSn41b1yVI" allowFullScreen>
+            </iframe>
          </div>
-          <div className="footer"> <p className="address">  
+        <div className="footer"> <p>  
 1017 South First Street, Las Vegas, NV 89101</p>
-      <p className="address">  555-432-3441  -  555-432-3441  -  Map  -  Directions  </p>
+      <p>  555-432-3441  -  555-432-3441  -  Map  -  Directions  </p>
         </div>
-	</div>
+	   </div>
     )
   }
 });
