@@ -9,10 +9,17 @@ import Reservation  from "ui/reservation";
 import Story  from "ui/story";
 
 
+//layout
+import Logo from 'ui/logo'
+import Social from 'ui/social'
+
+
 export default React.createClass({
+
   render: function () {
     return (
       <div>
+<<<<<<< HEAD
         <Pictures />
         
       <div className="infocont">
@@ -25,9 +32,25 @@ export default React.createClass({
         <Link to="/"> Our Story</Link>
         <Link to="/menu"> Menu</Link>
         <Link to="/reservation">Reservation</Link>
+=======
+        <Logo />
+        <Social />
+        <Link to="/" className="links"> Our Story</Link>
+        <Link to="/menu" className="links"> Menu</Link>
+        <Link to="/reservation" className="links">Reservation</Link>
+
+      
+        
+>>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
 
         {this.props.children}
+        
       </div>
     )
   }
 })
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .newscontent {
 
@@ -82,15 +83,181 @@ p {
     margin-right: auto;
     width: 25em;
 }
+=======
+body{
+	background: beige;
+}
+#storyContainer, #menuContainer, #registration{
+	background: #CCB581;
+	width:80%;
+	margin: auto;
+	border-radius: 20px;
+	text-align: center;
+	margin-top:20px;
+	padding: 5px;
+
+}
+
+>>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
 
 #logo {
 	width: 100px;
 	height: 100px;
-	 -webkit-transform: rotate(90deg);
-	 padding:0px;
-	 margin:0px;
+	 -webkit-transform: rotate(10deg);
+	 padding:0px;	
+	 margin:20px;
+}
+	
+
+
+.links{
+	margin-right: 5px;
+	margin-left:5px;
+	text-decoration: none;
+	border:3px solid grey;
+	outline:2px solid black;
+	padding: 2px;
+	background: rgba(204,85,0,.6);
+	color:black;
 }
 
+.links:active{
+	background: rgba(204,85,0,.2);
+}
+
+@keyframes example {
+    0%   {color: red; left:0px; top:0px;}
+    25%  {color: black; left:200px; top:0px;}
+    50%  {color: blue; left:200px; top:200px;}
+    75%  {color: green; left:0px; top:200px;}
+    100% {color: red; left:0px; top:0px;}
+}
+#social{
+	float:right;
+	margin-top: 30px;
+	box-sizing: border-box;
+
+}
+#social a{
+	margin:0px 2px;
+
+}
+
+#social p{
+	display: block;
+	float:left;
+	padding:0px;
+	margin-top: 3px;
+	margin-right: 5px;
+	font-size:24px;
+	font-family:cursive, Serif, Comic;
+	animation-name: example;
+	animation-duration: 33s;
+
+}
+
+.social{
+	border-radius: 50%;
+	border:3px solid black;
+}
+.social:hover{
+	box-shadow: 2px 2px #000;
+}
+#storypic{
+	box-sizing: border-box;
+	width:100%;
+	height:400px;
+	outline:5px solid beige;
+	
+
+}
+p{
+	font-family:Serif;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 1.2em;
+}
+
+.foodTitle{
+	font-size:22px;
+	font-weight: bold;
+}
+h1{
+	text-align: center;
+	font-size:40px;
+	width:275px;
+	margin: auto;
+	border-bottom:1px outset black;
+	padding-top:3px
+}
+h2{
+	line-height: 3em;
+	font-size: 33px;
+	border-bottom: 5px double black;	
+	width: 200px;
+	height:75px;
+	margin:auto;
+	margin-bottom: 10px;
+}
+#form{
+	width:500px;
+	text-align: center;
+	margin: auto;	
+}
+#form input, #form select, #form textarea{
+	width:400px;
+	margin:10px 0px;
+	border:2px solid black;
+	background: rgb(248,248,248)
+
+}
+#form input{
+	height:30px;
+}
+#form textarea{
+	height:75px;
+}
+
+#form select{
+	height:35px;
+}
+#form input:hover, #form select:hover, #form textarea:hover{
+	background: rgba(204,85,0,.6);
+
+}
+button{
+	margin:20px 0px;
+	width:110px;
+	border-radius: 100px;
+	outline:none;
+	color:white;
+	background: rgb(101,67,33);
+	border:none;
+}
+
+button:active{
+	background:white;
+	color:rgb(101,67,33);
+	box-shadow:4px 5px rgb(101,67,33);
+}
+
+#vegan, #spicy, #favorite, #allergies{
+	height:20px;
+	width:20px;
+}
+
+div .accord{
+	display: none;
+}
+div .show{
+	display:block;
+}
+.finder{
+	cursor: pointer;
+}
+
+
+<<<<<<< HEAD
 .foodcontainer img {
 	display: block;
 	height:150px;
@@ -115,3 +282,5 @@ p {
 /*float above wine bottle*/
 
 
+=======
+>>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
