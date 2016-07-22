@@ -1,3 +1,88 @@
+
+.newscontent {
+
+}
+
+.left {
+	float:left;
+	font-weight: bold;
+
+}
+
+.right {
+	float:right;
+	font-weight: bold;
+
+}
+
+.google {
+	height: 100px;
+	width:245px;
+	overflow: hidden;
+	margin-left: 9px;
+
+
+}
+iframe{
+	margin-top:-60px;
+
+}
+.footer {
+	margin-top: 12px;
+}
+
+.address{
+	font-family: Arial;
+	font-size:9px;	
+	width: 230px;
+	text-align: center;
+	text-height: 14px;
+
+}
+
+.infocont {
+	width: 850px;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.infoboxes {
+	height: 225px;
+	width:265px;
+	border: 1px solid grey;
+	background-color: #d4d4d4;
+	display:inline-block;
+	border: 1px solid grey;
+	overflow: scroll;
+	
+
+}
+button {
+	color:red;
+	font-size: 8px;
+	background-color:white;
+}
+hr {
+    
+}
+
+h2 {
+	text-align: center;
+	
+}
+.boxstyle {
+	font-family: Arial;
+	font-size:9px;	
+	
+}
+p {
+	margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
 #logo {
 	width: 100px;
 	height: 100px;
@@ -6,6 +91,27 @@
 	 margin:0px;
 }
 
-a{
-	margin-right: 10px;
+.foodcontainer img {
+	display: block;
+	height:150px;
+	width:150px;
+	border: 2px solid grey;
+	margin-bottom: 10px;
 }
+#mainphoto {
+		border: 2px solid grey;
+		width: 850px;
+		height:250;
+		border: 2px solid grey;
+
+}
+#logo{
+	color:grey;
+	font-family:Cursive;
+	font-size:50px;
+	-webkit-text-stroke-width:2px;
+   	-webkit-text-stroke-color: rgb(97,39,37);
+}
+/*float above wine bottle*/
+
+

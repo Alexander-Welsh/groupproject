@@ -1,21 +1,18 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, browserHistory, hashHistory } from 'react-router';
-
-// Layout
 import Layout from 'layout/layout';
-
-// UI
 import Story from 'ui/story';
 import Menu from 'ui/menu';
-import Reservation from 'ui/reservation';
-import Google from 'ui/google';
-import News from "ui/news";
+import Reservation from 'ui/reservation';// import Location from 'ui/location';
+// import Specialscontainer from "ui/specialscontainer";
+import Specials from "ui/specials";
 
-const Site = (
+
+const Site = (  // paths are for links only// //component is for the page//
   <Router history={hashHistory}>
-    <Route component={Layout}>
-      <Route path="/" component={Story} />
+    <Route component={Layout}> 
+    <Route path="/" component={Story} />
       <Route path="/menu" component={Menu} />
       <Route path="/reservation" component= {Reservation} />
     </Route>
@@ -23,3 +20,4 @@ const Site = (
 );
 
 render(Site, document.getElementById('app'));
+//the main file is for bringing the pages an links together//
