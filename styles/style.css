@@ -1,6 +1,3 @@
-
-
-
 .left {
 	float:left;
 	font-weight: bold;
@@ -14,10 +11,10 @@
 }
 
 .google {
-	height: 100px;
+	height: 200px;
 	width:245px;
 	overflow: hidden;
-	margin-left: 9px;
+	margin:auto;
 
 
 }
@@ -39,18 +36,20 @@ iframe{
 }
 
 .infocont {
-	width: 850px;
-	height: 250px;
+	width: 1050px;
+	height: 350px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-left: 12%;	
+	margin-top: 30px;
 }
 
 .infoboxes {
-	height: 225px;
-	width:265px;
+	height: 325px;
+	width:325px;
 	border: 1px solid grey;
-	background-color: #d4d4d4;
+	background-color: #CCB581;
 	display:inline-block;
 	border: 1px solid grey;
 	overflow: scroll;
@@ -66,36 +65,36 @@ hr {
     
 }
 
-h2 {
-	text-align: center;
-	
-}
+
 .boxstyle {
 	font-family: Arial;
 	font-size:9px;	
 	
 }
-p {
+/*p {
 	margin-left: auto;
     margin-right: auto;
     width: 25em;
-}
-=======
+}*/
+
 body{
 	background: beige;
 }
 #storyContainer, #menuContainer, #registration{
 	background: #CCB581;
-	width:80%;
-	margin: auto;
+	width:1050px;
+	margin-left: 12%;
 	border-radius: 20px;
 	text-align: center;
 	margin-top:20px;
 	padding: 5px;
 
 }
+#linkcont{
+	margin-left: 12%;
+	margin-top: 30px;
+}
 
->>>>>>> 1ad4453032f43afef93578092f8f4ada26522c54
 
 #logo {
 	width: 100px;
@@ -131,8 +130,9 @@ body{
 }
 #social{
 	float:right;
-	margin-top: 30px;
+	margin-top: 35px;
 	box-sizing: border-box;
+	width:300px;
 
 }
 #social a{
@@ -144,12 +144,13 @@ body{
 	display: block;
 	float:left;
 	padding:0px;
-	margin-top: 3px;
+	margin-top: 5px;
 	margin-right: 5px;
 	font-size:24px;
 	font-family:cursive, Serif, Comic;
 	animation-name: example;
 	animation-duration: 33s;
+	width:120px;
 
 }
 
@@ -164,7 +165,7 @@ body{
 	box-sizing: border-box;
 	width:100%;
 	height:400px;
-	outline:5px solid beige;
+	border:5px solid beige;
 	
 
 }
@@ -190,11 +191,22 @@ h1{
 h2{
 	line-height: 3em;
 	font-size: 33px;
+	width: 200px;
+	height:75px;
+	margin:auto;
+	margin-bottom: 10px;
+	text-align:center;
+}
+.finder{
+	line-height: 3em;
+	font-size: 33px;
 	border-bottom: 5px double black;	
 	width: 200px;
 	height:75px;
 	margin:auto;
 	margin-bottom: 10px;
+	text-align:center;
+	
 }
 #form{
 	width:500px;
@@ -252,21 +264,25 @@ div .show{
 .finder{
 	cursor: pointer;
 }
+.foodcontainer{
+	float:right;
+	margin-top: 30px;
+	margin-right:20px;
+}
 
-
-<<<<<<< HEAD
 .foodcontainer img {
 	display: block;
-	height:150px;
-	width:150px;
+	height:180px;
+	width:180px;
 	border: 2px solid grey;
-	margin-bottom: 10px;
+	margin-bottom: 70px;
 }
 #mainphoto {
 		border: 2px solid grey;
-		width: 850px;
+		width: 1050px;
 		height:250;
 		border: 2px solid grey;
+		margin-left:12%;
 
 }
 #logo{
@@ -277,7 +293,3 @@ div .show{
    	-webkit-text-stroke-color: rgb(97,39,37);
 }
 /*float above wine bottle*/
-
-
-
-
