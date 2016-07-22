@@ -34,7 +34,6 @@ export default React.createClass({
   render: function () {
     return (
       <div>
-      	<p>Menu</p>
       <div id="menuContainer">
       	<h1>Dinner Menu</h1>
       	<h2 className="finder"onClick={this.slider} title="Click to Open/Close"> Appetizers:</h2>

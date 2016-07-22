@@ -19,23 +19,22 @@ export default React.createClass({
   render: function () {
     return (
       <div>
-        <Pictures />
+      <Logo />
+      <Social />
+         <img id="mainphoto" src="http://www.luxlifemag.com/wp-content/uploads/2013/01/CSC_0955-994x350.jpg" />
+        
         
       <div className="infocont">
         <News />
         <Specials />
         <Location />
-      </div> 
-       
-        <img id="logo" src="http://static.vecteezy.com/system/resources/previews/000/000/624/original/red-wine-bottle-vector.jpg" />
-        <Link to="/"> Our Story</Link>
-        <Link to="/menu"> Menu</Link>
-        <Link to="/reservation">Reservation</Link>
-        <Logo />
-        <Social />
+      </div>
+        <div id="linkcont">
         <Link to="/" className="links"> Our Story</Link>
         <Link to="/menu" className="links"> Menu</Link>
         <Link to="/reservation" className="links">Reservation</Link>
+        </div>
+        <Pictures />
 
       
         

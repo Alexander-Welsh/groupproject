@@ -24,7 +24,6 @@ export default React.createClass({
   render: function () {
     return (
       <div>
-      	<p>Reservation</p>
       <div id="registration">
       	<h1> Reservation </h1>
       		<form id="form" ref="form" onSubmit={this.handleSubmit}>
