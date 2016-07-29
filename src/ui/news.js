@@ -1,5 +1,5 @@
 import React from 'react';
-import { getNews } from 'ui/api/axios';
+import { getNews } from 'api/restdata';
 
 export default React.createClass({
 	getInitialState: function() {
