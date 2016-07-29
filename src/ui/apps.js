@@ -59,11 +59,21 @@ export default React.createClass({
 			})
 		}
 	},
+  veganIcon: function () {
+		if(vegan === 1){
+			return <img id="vegan"src="https://graysuede.files.wordpress.com/2014/02/vegan-symbol.png"/>
+			})
+		}else{
+			this.setState({
+				vegan:null
+			})
+		}
+  }
   render: function () {
     return (
      	<div>
      		<p><span className="foodTitle">{this.props.name}</span>: {this.props.price}</p>
-     		<p><span>{this.state.spicy}</span> <span>{this.state.vegan}</span> 
+     		<p><span>{this.state.spicy}</span> <span>{this.veganIcon()}</span> 
      		<span>{this.state.favorite}</span> <span>{this.state.allergies}</span>
 	  		</p>
      		<p>{this.props.description}</p>

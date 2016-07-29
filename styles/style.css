@@ -67,9 +67,7 @@ button {
 	font-size: 8px;
 	background-color:white;
 }
-hr {
-    
-}
+
 
 
 .boxstyle {
@@ -77,11 +75,6 @@ hr {
 	font-size:9px;	
 	
 }
-/*p {
-	margin-left: auto;
-    margin-right: auto;
-    width: 25em;
-}*/
 
 body{
 	background: beige;
@@ -192,16 +185,18 @@ h1{
 	width:275px;
 	margin: auto;
 	border-bottom:1px outset black;
-	padding-top:3px
+	padding-top:3px;
+	margin-bottom:3px;
 }
 h2{
 	line-height: 3em;
-	font-size: 33px;
+	font-size: 25px;
 	width: 200px;
 	height:75px;
 	margin:auto;
 	margin-bottom: 10px;
 	text-align:center;
+	font:bold;
 }
 .finder{
 	line-height: 3em;
