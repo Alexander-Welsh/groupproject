@@ -63,7 +63,6 @@ button {
 	font-size: 8px;
 	background-color:white;
 }
-
 .hr {
 	
 	margin-left: auto;
@@ -72,7 +71,6 @@ button {
  	border-color: grey;
     
 }
-=
 
 .salmon {
 	border: 1px solid grey;
@@ -92,6 +90,11 @@ button {
     width: 30em;
 	
 }
+/*p {
+	margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}*/
 
 body{
 	background: beige;
@@ -202,18 +205,16 @@ h1{
 	width:275px;
 	margin: auto;
 	border-bottom:1px outset black;
-	padding-top:3px;
-	margin-bottom:3px;
+	padding-top:3px
 }
 h2{
 	line-height: 3em;
-	font-size: 25px;
+	font-size: 33px;
 	width: 200px;
 	height:75px;
 	margin:auto;
 	margin-bottom: 10px;
 	text-align:center;
-	font:bold;
 }
 
 h4 {

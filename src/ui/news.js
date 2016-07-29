@@ -1,5 +1,5 @@
 import React from 'react';
-import { getNews } from 'ui/api/axios';
+import { getNews } from 'api/restdata';
 
 export default React.createClass({
 	getInitialState: function() {
@@ -23,8 +23,8 @@ export default React.createClass({
 	render: function() {
 		return (
 			<div className="infoboxes">
-				<h2> Latest News </h2>
-				<hr />		
+				<h4> Latest News </h4>
+				<hr className="hr"/>		
 				<p className ="boxstyle" id="news"> <span className="left"> {this.state.title} </span> <span className="right">{this.state.date_published} </span> </p>
 				<br />
 				<p className ="boxstyle" id="news"> {this.state.news} </p>
